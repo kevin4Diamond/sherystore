@@ -1,0 +1,60 @@
+/* styles/LandingPage.module.css */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #103118;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.title {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ctaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ctaButton {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #42f142;
+  color: #113520;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.ctaButton:hover,
+.ctaButton:focus {
+  background-color: #189c18;
+}
