@@ -20,7 +20,7 @@ export default function LandingPage() {
       </Head>
       <div className="content">
       <div className="banner">
-        <h2>IT&apos;t KABOB TIME</h2>
+        <h2>IT&apos;S KABOB TIME</h2>
       </div>
       <header className={styles.header}>
         <h1 className={styles.title}>Try Our Authentic Persian Kabob</h1>
