@@ -44,7 +44,7 @@ export default function LandingPage() {
           {phoneNumberVisible ? 'It\'s Kabob-Time' : 'Order Now'}
         </button>
         {phoneNumberVisible && (
-          <p className={styles.ctaButton} >Call us now: (949) 599-8373</p>
+          <p className={styles.ctaButton} >Call us now: (###) ###-####</p>
         )}
         </div>
         
