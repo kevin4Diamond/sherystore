@@ -17,7 +17,6 @@
 }
 h1{
   color: rgb(238, 233, 233);
-
 }
 body {
   color: rgb(var(--foreground-rgb));
@@ -35,6 +34,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 1rem;
 }
 .cta-button {
   background-color: #0070f3;
@@ -56,23 +56,14 @@ body {
   color: white;
 }
 .banner {
-  background-color: #41cc6f;
-  color: rgb(2, 29, 1);
+  color: rgb(243, 245, 243);
   padding: 5px;
   text-align: center;
-  font-size: 66px;
   font-weight: bold;
   width: 100%;
-}
-.background-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  opacity: 0.9;
+  margin-top:5rem;
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .content {

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
+import Carousel from 'react-bootstrap/Carousel';
 import styles from '../styles/LandingPage.module.css';
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,38 +15,71 @@ export default function LandingPage() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>KABOB TIME</title>
-        <meta name="description" content="Delicious Persian Koobideh Kabob" />
+        <title>R-II Luxury Skincare</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="skincare, luminous, hydrating, rejuvinating, cost effective skincare, all in one skincare, pietra, all skin type, hypoalergenic,luxury, moisture, Hyaluronic Acid, vitamin e, shea butter, mineral oil, vitamin c, day and night cream, eye cream, neck cream. anti wrinkle, zinc oxide spf 50  sunscreen"/>
+           ...   other stuff here
+          <meta property="og:title" content="R-II Skincare" key="og-title"/>
+          <meta name="description" content="For all skin types, rejuvinating, hydrating, Luminous" />
+          <meta property="og:url" content="https://sherystore.com" key="og-url"/>
+          <meta property="og:image" content="./r-iii.jpg"
+          key="og-image" />
+          <meta property="og:site_name" content="R-II Skincare" key="og-site" />
+            <meta property="twitter:site" content="@riiskincare"/>
+            <meta name="twitter:card" content="summary_large_image" key="tw-card"/>
+            <meta property="twitter:title" content="R-II American Luxury Skincare"/>
+            <meta property="twitter:description" content="For all skin types, rejuvinating, hydrating, Luminous"/>
+        
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="content">
       <div className="banner">
-        <h2>KABOB TIME</h2>
+        R-II Skincare
       </div>
       <header className={styles.header}>
-        <h1 className={styles.title}>Try Our Authentic Persian Kabob</h1>
+        <h1 className={styles.title}>American Luxury Skincare for all skin types, Luminous, Hydrating, Rejuvinating</h1>
       </header>
       <div className="image-container">
-          
-          <Image src="/image5.jpg" alt="Image 3" width={400} height={200} />
-          <Image src="/image7.jpg" alt="Image 7" width={500} height={200} />
-          <Image src="/image6.jpg" alt="Image 4" width={400} height={200} />
+      <Image 
+      src="/intro.jpg"
+      width={1000}
+      height={597}
+      alt="intro"
+      />
         </div>
-        
-        <video className="background-video" autoPlay loop muted playsInline>
-          <source src="/myvideo.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        
+        <div style={{marginBottom:50}}>
+        <Carousel data-bs-theme="dark">
+      <Carousel.Item >
+        <img
+        className="d-block w-100"
+          src="/sh2.jpg"
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+        className="d-block w-100"
+          src="/khal.jpg"
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+        className="d-block w-100"
+          src="k1.jpg"
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+    </div>
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
+        <div className={styles.ctaButton}>
+        <div >
+          <a target="_blank" href="">Order</a>
+        </div>
+      </div>
           
-          <button className={styles.ctaButton} onClick={togglePhoneNumber} >
-          {phoneNumberVisible ? 'It\'s Kabob-Time' : 'Order Now'}
-        </button>
-        {phoneNumberVisible && (
-          <p className={styles.ctaButton} >Call us now: (949) 444-5070</p>
-        )}
         </div>
         
       </main>

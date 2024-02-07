@@ -5,19 +5,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #103118;
+  background-color: black;
+  opacity: 1;
 }
 
 .header {
   text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .title {
-  margin: 0;
-  font-size: 4rem;
+  margin: 10px;
+  font-size: 2rem;
+  color: #d7dbd7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .description {
@@ -48,7 +51,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #42f142;
+  background-color: #acafac;
   color: #113520;
   font-weight: bold;
   transition: background-color 0.2s ease;
