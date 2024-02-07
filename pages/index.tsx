@@ -17,7 +17,7 @@ export default function LandingPage() {
       <Head>
         <title>R-II Luxury Skincare</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="skincare, luminous, hydrating, rejuvinating, cost effective skincare, all in one skincare, pietra, all skin type, hypoalergenic,luxury, moisture, Hyaluronic Acid, vitamin e, shea butter, mineral oil, vitamin c, day and night cream, eye cream, neck cream. anti wrinkle, zinc oxide spf 50  sunscreen"/>
+        <meta name="keywords" content="skincare, luminous, hydrating, rejuvenating, cost effective skincare, all in one skincare, pietra, all skin type, hypoalergenic,luxury, moisture, Hyaluronic Acid, vitamin e, shea butter, mineral oil, vitamin c, day and night cream, eye cream, neck cream. anti wrinkle, zinc oxide spf 50  sunscreen"/>
            ...   other stuff here
           <meta property="og:title" content="R-II Skincare" key="og-title"/>
           <meta name="description" content="For all skin types, rejuvinating, hydrating, Luminous" />
@@ -37,46 +37,38 @@ export default function LandingPage() {
         R-II Skincare
       </div>
       <header className={styles.header}>
-        <h1 className={styles.title}>American Luxury Skincare for all skin types, Luminous, Hydrating, Rejuvinating</h1>
+        <h1 className={styles.title}>American Luxury Skincare for all skin types, Luminous, Hydrating, Rejuvenating</h1>
       </header>
       <div className="image-container">
       <Image 
-      src="/intro.jpg"
+      src="/checkout.png"
+      width={120}
+      height={120}
+      alt="checkout"
+      />
+      </div>
+      <div className="image-container">
+      <Image 
+      src="/intro2.jpg"
       width={1000}
       height={597}
       alt="intro"
       />
         </div>
         <div style={{marginBottom:50}}>
-        <Carousel data-bs-theme="dark">
-      <Carousel.Item >
-        <img
-        className="d-block w-100"
-          src="/sh2.jpg"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-        className="d-block w-100"
-          src="/khal.jpg"
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-        className="d-block w-100"
-          src="k1.jpg"
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
+        
     </div>
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
         <div >
-          <a target="_blank" href="">Order</a>
+          
+          <div className={styles.top}>
+            <div style={{padding: 20}}>
+              <a target="_blank" href="https://square.link/u/1LWX36D9?src=embed" 
+              className={styles.buttom}>Buy now</a>
+            </div>
+        </div>
         </div>
       </div>
           

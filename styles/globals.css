@@ -34,7 +34,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 .cta-button {
   background-color: #0070f3;
@@ -45,18 +45,17 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px 2px;
+  margin: 10px;
   cursor: pointer;
   border-radius: 4px;
   transition-duration: 0.4s;
 }
-
 .cta-button:hover {
   background-color: #0069d9;
   color: white;
 }
 .banner {
-  color: rgb(243, 245, 243);
+  color: #373837;
   padding: 5px;
   text-align: center;
   font-weight: bold;
