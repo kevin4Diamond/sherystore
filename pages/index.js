@@ -2,16 +2,11 @@ import { useState } from 'react';
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
-import Carousel from 'react-bootstrap/Carousel';
 import styles from '../styles/LandingPage.module.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function LandingPage() {
-  const [phoneNumberVisible, setPhoneNumberVisible] = useState(false);
 
-  const togglePhoneNumber = () => {
-    setPhoneNumberVisible(!phoneNumberVisible);
-  };
   return (
     <div className={styles.container}>
       <Head>
@@ -52,6 +47,7 @@ export default function LandingPage() {
       src="/intro2.jpg"
       width={1000}
       height={597}
+      priority={false}
       alt="intro"
       />
         </div>
