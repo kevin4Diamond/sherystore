@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(216, 216, 216);
+  background-color: #a19b7d;
   opacity: 1;
 }
 
@@ -19,7 +19,7 @@
 .title {
   margin: 10px;
   font-size: 2rem;
-  color: #373837;
+  color: #141414;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

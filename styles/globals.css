@@ -55,12 +55,12 @@ body {
   color: white;
 }
 .banner {
-  color: #373837;
+  color: rgb(18, 19, 18);
   padding: 5px;
   text-align: center;
   font-weight: bold;
   width: 100%;
-  margin-top:2rem;
+  margin-top:4rem;
   font-size: 3rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }

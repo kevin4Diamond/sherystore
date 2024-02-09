@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
@@ -29,10 +28,10 @@ export default function LandingPage() {
       </Head>
       <div className="content">
       <div className="banner">
-        R-II Skincare
+        R-II American Luxury Skincare
       </div>
       <header className={styles.header}>
-        <h1 className={styles.title}>American Luxury Skincare for all skin types, Luminous, Hydrating, Rejuvenating</h1>
+        <h1 className={styles.title}>Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating</h1>
       </header>
       <div className="image-container">
       <Image 
@@ -61,7 +60,7 @@ export default function LandingPage() {
           
           <div className={styles.top}>
             <div style={{padding: 20}}>
-              <a target="_blank" href="https://square.link/u/1LWX36D9?src=embed" 
+              <a target="_blank" href="https://square.link/u/Ac48BjlP?src=embed" 
               className={styles.buttom}>Buy now</a>
             </div>
         </div>

@@ -1,31 +1,34 @@
+import styles from '../styles/LandingPage.module.css';
 import Container from "react-bootstrap/Container";
 import { card, Row, Col, Card } from "react-bootstrap";
 import Image from "next/image"
 
-
 const PostsPage = () => {
   
   return (
-    <>
-    <Container style={{marginTop:30}}>
+    <div style={{marginTop:70}}>
+    <Container >
           <Row> 
             <Col sm={4}>
-             <Image
-                src="/r-ii.jpg"
-                alt="writing"
-                width={200}
-                height={200}
-              />
+            <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="/image.jpeg" />
+      <Card.Body style={{backgroundColor:'#a19b7d'}}>
+        <Card.Title>Ingredients</Card.Title>
+        <Card.Text >
+        Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid
+        </Card.Text>
+      </Card.Body>
+    </Card>
               </Col>
               <Col sm={3}>
-            <Card style={{fontSize:20, padding:40 ,backgroundColor:"rgb(216, 216, 216)"}}>
-            Vitamin E, Vitamin C, Zinc oxide, Mineral oil, shea butter, Hyaluronic acid  
-            </Card>
+            
             </Col>
           </Row>
 
     </Container>
-    </>
+    </div>
+
+    
   );
 };
 

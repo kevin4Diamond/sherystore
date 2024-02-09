@@ -34,7 +34,7 @@ const ContactForm = () => {
 
   return (
     <>
-    <Container id="contact" fluid="md" style={{marginTop:10, backgroundColor:"rgb(216, 216, 216)"}}>
+    <Container id="contact" fluid="md" style={{marginTop:50, backgroundColor:"#a19b7d"}}>
     <div className="section-title">
     <h2 style={{textAlign:'center'}}>Get In Touch</h2>
     <h6 style={{textAlign:'center'}}>
