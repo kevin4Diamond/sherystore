@@ -9,7 +9,7 @@ export default function Navig() {
             <Nav className="justify-content-center">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link as="a" href="/contact" >Contact</Nav.Link>
-              <Nav.Link as="a" href="/ingerid" >Ingredients</Nav.Link>
+              
             </Nav>
           </Navbar.Collapse>
           </Navbar>

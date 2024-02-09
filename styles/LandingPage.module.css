@@ -18,7 +18,7 @@
 
 .title {
   margin: 10px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #141414;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -51,7 +51,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #acafac;
+  background-color: #a19b7d;
   color: #113520;
   font-weight: bold;
   transition: background-color 0.2s ease;
@@ -83,7 +83,7 @@
   height: 48px;
   color: #ffffff;
   min-width: 212px;
-  background-color: #006aff;
+  background-color: #208114;
   text-align: center;
   box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
   border-radius: 6px;

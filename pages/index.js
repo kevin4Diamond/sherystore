@@ -28,7 +28,8 @@ export default function LandingPage() {
       </Head>
       <div className="content">
       <div className="banner">
-        R-II American Luxury Skincare
+        R-II <br />
+        <p style={{fontSize:30}}>American Luxury Skincare</p>
       </div>
       <header className={styles.header}>
         <h1 className={styles.title}>Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating</h1>
@@ -49,10 +50,12 @@ export default function LandingPage() {
       priority={false}
       alt="intro"
       />
-        </div>
-        <div style={{marginBottom:50}}>
-        
-    </div>
+      
+      </div>
+      <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
+        Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid, and more
+      </p>
+    
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
