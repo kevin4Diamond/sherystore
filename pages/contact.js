@@ -71,7 +71,7 @@ const ContactForm = () => {
             onChange={handleChange}
           />
           </Form.Group>
-          <Button style={{marginTop:10}} variant="dark" type="submit"  >Submit</Button>
+          <Button style={{marginTop:10, marginBottom:10}} variant="dark" type="submit"  >Submit</Button>
         </Form>
       ) : (
         <p>Thank you, your message was submitted.</p>

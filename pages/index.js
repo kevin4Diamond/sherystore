@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
 import styles from '../styles/LandingPage.module.css';
+import {Card, Col, Row } from "react-bootstrap";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function LandingPage() {
@@ -34,6 +35,7 @@ export default function LandingPage() {
       <header className={styles.header}>
         <h1 className={styles.title}>Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating</h1>
       </header>
+      
       <div className="image-container">
       <Image 
       src="/checkout.png"
@@ -45,33 +47,58 @@ export default function LandingPage() {
       <div className="image-container">
       <Image 
       src="/intro2.jpg"
-      width={1000}
-      height={597}
-      priority={false}
+      width={800}
+      height={500}
       alt="intro"
       />
-      
       </div>
       <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
         Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid, and more
       </p>
-    
+
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
         <div >
-          
           <div className={styles.top}>
             <div style={{padding: 20}}>
               <a target="_blank" href="https://square.link/u/Ac48BjlP?src=embed" 
-              className={styles.buttom}>Buy now</a>
+              className={styles.buttom}>Order Now</a>
             </div>
         </div>
         </div>
       </div>
-          
         </div>
-        
+      </main>
+      <div className="banner">
+        R-II <br />
+        <p style={{fontSize:30}}>Deep Exfoliating Powder</p>
+      </div>
+      <div className="image-container">
+      <Image 
+      src="/exfoliate2.jpg"
+      width={800}
+      height={500}
+      alt="intro"
+      />
+      </div>
+      <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
+      Direction: Blend 1 table spoon of water with 1/2 tea spoon of R-II exfoliating powder <br /> and rub onto your skin for about 1 to 2 minutes, wash and dry to see a fantastic result. <br />
+      Ingredients: Water, Olive Oil, Citric Acid.
+      </p>
+    <main className={styles.main}>
+        <div className={styles.ctaContainer}>
+        <div className={styles.ctaButton}>
+        <div >
+          <div className={styles.top}>
+            <div style={{padding: 20}}>
+              <a target="_blank" href="https://square.link/u/iWTFokSY?src=embed" 
+              className={styles.buttom}>Order Now</a>
+            </div>
+        </div>
+        </div>
+      </div>
+        </div>
       </main>
     </div>
     </div>
