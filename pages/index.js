@@ -53,7 +53,7 @@ export default function LandingPage() {
       />
       </div>
       <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
-        Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid, and more
+        Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid.
       </p>
 
       <main className={styles.main}>
@@ -84,7 +84,7 @@ export default function LandingPage() {
       </div>
       <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
       Direction: Blend 1 table spoon of water with 1/2 tea spoon of R-II exfoliating powder <br /> and rub onto your skin for about 1 to 2 minutes, wash and dry to see a fantastic result. <br />
-      Ingredients: Water, Olive Oil, Citric Acid.
+      Ingredients: Carbonite Calcium Powder, White Petroleum, Olive Oil, Citric Acid, Paraffin.
       </p>
     <main className={styles.main}>
         <div className={styles.ctaContainer}>
