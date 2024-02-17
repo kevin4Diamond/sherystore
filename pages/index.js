@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
 import styles from '../styles/LandingPage.module.css';
@@ -30,7 +31,7 @@ export default function LandingPage() {
       <div className="content">
       <div className="banner">
         R-II <br />
-        <p style={{fontSize:30}}>American Luxury Skincare</p>
+        <p style={{fontSize:30, color:'black'}}>American Luxury Skincare<br />$120.00 per unit</p>
       </div>
       <header className={styles.header}>
         <h1 className={styles.title}>Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating</h1>
@@ -52,10 +53,11 @@ export default function LandingPage() {
       alt="intro"
       />
       </div>
-      <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
+      <p style={{ textAlign:'center', Color:"black"}}>
         Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid.
       </p>
-
+      <Row>
+        <Col>
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
@@ -70,9 +72,15 @@ export default function LandingPage() {
       </div>
         </div>
       </main>
+      </Col>
+        <Col>
+        <p style={{color:'white', fontSize:25, marginTop:40}}>For wholesale Pricing, <Link href='./contact' >Contact Us</Link></p>
+        </Col>
+      </Row>
       <div className="banner">
         R-II <br />
-        <p style={{fontSize:30}}>Deep Exfoliating Powder</p>
+        <p style={{fontSize:30, color:'black'}}>Deep Exfoliating Powder <br />$50.00 per unit</p>
+        
       </div>
       <div className="image-container">
       <Image 
@@ -82,10 +90,11 @@ export default function LandingPage() {
       alt="intro"
       />
       </div>
-      <p style={{ textAlign:'center', Color:"#f5f0f0"}}>
+      <p style={{ textAlign:'center', Color:"black"}}>
       Direction: Blend 1 table spoon of water with 1/2 tea spoon of R-II exfoliating powder <br /> and rub onto your skin for about 1 to 2 minutes, wash and dry to see a fantastic result. <br />
       Ingredients: Carbonite Calcium Powder, White Petroleum, Olive Oil, Citric Acid, Paraffin.
       </p>
+    <Row><Col>
     <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
@@ -100,6 +109,11 @@ export default function LandingPage() {
       </div>
         </div>
       </main>
+      </Col>
+        <Col>
+        <p style={{color:'white', fontSize:25, marginTop:40}}>For wholesale Pricing, <Link href='./contact' >Contact Us</Link></p>
+        </Col>
+      </Row>
     </div>
     </div>
   );
