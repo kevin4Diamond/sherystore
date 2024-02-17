@@ -56,8 +56,7 @@ export default function LandingPage() {
       <p style={{ textAlign:'center', Color:"black"}}>
         Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid.
       </p>
-      <Row>
-        <Col>
+
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
@@ -72,11 +71,7 @@ export default function LandingPage() {
       </div>
         </div>
       </main>
-      </Col>
-        <Col>
-        <p style={{color:'white', fontSize:25, marginTop:40}}>For wholesale Pricing, <Link href='./contact' >Contact Us</Link></p>
-        </Col>
-      </Row>
+     
       <div className="banner">
         R-II <br />
         <p style={{fontSize:30, color:'black'}}>Deep Exfoliating Powder <br />$50.00 per unit</p>
@@ -94,7 +89,7 @@ export default function LandingPage() {
       Direction: Blend 1 table spoon of water with 1/2 tea spoon of R-II exfoliating powder <br /> and rub onto your skin for about 1 to 2 minutes, wash and dry to see a fantastic result. <br />
       Ingredients: Carbonite Calcium Powder, White Petroleum, Olive Oil, Citric Acid, Paraffin.
       </p>
-    <Row><Col>
+ 
     <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
@@ -109,11 +104,7 @@ export default function LandingPage() {
       </div>
         </div>
       </main>
-      </Col>
-        <Col>
-        <p style={{color:'white', fontSize:25, marginTop:40}}>For wholesale Pricing, <Link href='./contact' >Contact Us</Link></p>
-        </Col>
-      </Row>
+
     </div>
     </div>
   );
