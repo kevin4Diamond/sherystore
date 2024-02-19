@@ -35,12 +35,11 @@ export default function LandingPage() {
       </div>
       
       <Card style={{ textAlign:'center' }}>
-      <Card.Header>Introducing R-II Luxury Skincare</Card.Header>
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-             The all in one cream you have been looking for. Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating. <br /> Are you tired of juggling multiple products and expenses for your skincare routine? Your solution is here!{' '}
+            Introducing R-II Luxury Skincare - the all in one cream you have been looking for. Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating. <br /> Are you tired of juggling multiple products and expenses for your skincare routine? Your solution is here!{' '}
           </p>
         </blockquote>
       </Card.Body>
@@ -63,10 +62,11 @@ export default function LandingPage() {
       alt="intro"
       />
       </div>
-      <p style={{ textAlign:'center', Color:"black"}}>
+      <Card  style={{ textAlign:'center' }}>
+      
         Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid.
-      </p>
-
+      
+      </Card>
       <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
@@ -87,12 +87,11 @@ export default function LandingPage() {
         <p style={{fontSize:30, color:'black'}}>Deep Exfoliating Powder <br />$50.00 per unit</p>
       </div>
       <Card style={{ textAlign:'center' }}>
-      <Card.Header>Introducing R-II exfoliant</Card.Header>
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Our exclusive 2-in-1 exfoliant and mask – a skincare breakthrough! <br />This transformative product not only refines your skin with a gentle rub but also doubles as a soothing mask when applied as per specific instructions. <br /> Combat acne spots and bid farewell to blackheads as you indulge in this multi-functional skincare essential. <br /> Unveil radiant, clearer skin with the one and only exfoliant that does it all.{' '}
+            Introducing our exclusive 2-in-1 exfoliant and mask – a skincare breakthrough! <br />This transformative product not only refines your skin with a gentle rub but also doubles as a soothing mask when applied as per specific instructions. <br /> Combat acne spots and bid farewell to blackheads as you indulge in this multi-functional skincare essential. <br /> Unveil radiant, clearer skin with the one and only exfoliant that does it all.{' '}
           </p>
         </blockquote>
       </Card.Body>
