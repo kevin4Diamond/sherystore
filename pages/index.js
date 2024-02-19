@@ -34,7 +34,7 @@ export default function LandingPage() {
         <p style={{fontSize:30, color:'black'}}>American Luxury Skincare<br />$120.00 per unit</p>
       </div>
       <header className={styles.header}>
-        <h1 className={styles.title}>Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating</h1>
+        <h1 className={styles.title}>Introducing R-II Luxury Skincare - the all in one cream you have been looking for. Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating. <br /> Are you tired of juggling multiple products and expenses for your skincare routine? Your solution is here! </h1>
       </header>
       
       <div className="image-container">
@@ -47,7 +47,7 @@ export default function LandingPage() {
       </div>
       <div className="image-container">
       <Image 
-      src="/intro2.jpg"
+      src="/r-iii.jpg"
       width={800}
       height={500}
       alt="intro"
@@ -61,12 +61,12 @@ export default function LandingPage() {
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
         <div >
-          <div className={styles.top}>
-            <div style={{padding: 20}}>
+          
+            <div >
               <a target="_blank" href="https://square.link/u/Ac48BjlP?src=embed" 
               className={styles.buttom}>Order Now</a>
             </div>
-        </div>
+        
         </div>
       </div>
         </div>
@@ -75,6 +75,9 @@ export default function LandingPage() {
       <div className="banner">
         R-II <br />
         <p style={{fontSize:30, color:'black'}}>Deep Exfoliating Powder <br />$50.00 per unit</p>
+        <header className={styles.header}>
+        <h1 className={styles.title}>Introducing our exclusive 2-in-1 exfoliant and mask – a skincare breakthrough! This transformative product not only refines your skin with a gentle rub but also doubles as a soothing mask when applied as per specific instructions. Combat acne spots and bid farewell to blackheads as you indulge in this multi-functional skincare essential. Unveil radiant, clearer skin with the one and only exfoliant that does it all.</h1>
+      </header>
         
       </div>
       <div className="image-container">
@@ -85,21 +88,21 @@ export default function LandingPage() {
       alt="intro"
       />
       </div>
-      <p style={{ textAlign:'center', Color:"black"}}>
-      Direction: Blend 1 table spoon of water with 1/2 tea spoon of R-II exfoliating powder <br /> and rub onto your skin for about 1 to 2 minutes, wash and dry to see a fantastic result. <br />
-      Ingredients: Carbonite Calcium Powder, White Petroleum, Olive Oil, Citric Acid, Paraffin.
+      <p style={{ textAlign:'justify', Color:"black", width:800, alignItem:'center', marginLeft:20}}>
+      Directions: Experience the magic by blending 1 tablespoon of water with 1/2 teaspoon of our R-II Exfoliating Powder. Gently rub the mixture onto your skin for 1 to 2 minutes, then rinse and dry for a truly fantastic result. <br />
+      Ingredients: Crafted with care, our formula includes Carbonite Calcium Powder, White Petroleum, Olive Oil, Citric Acid, and Paraffin. Indulge in a skincare ritual that pampers your skin with these quality ingredients for a radiant glow.
       </p>
  
     <main className={styles.main}>
         <div className={styles.ctaContainer}>
         <div className={styles.ctaButton}>
         <div >
-          <div className={styles.top}>
-            <div style={{padding: 20}}>
+          
+            <div >
               <a target="_blank" href="https://square.link/u/iWTFokSY?src=embed" 
               className={styles.buttom}>Order Now</a>
             </div>
-        </div>
+        
         </div>
       </div>
         </div>

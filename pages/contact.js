@@ -36,8 +36,7 @@ const ContactForm = () => {
     <>
     <Container id="contact" fluid="md" style={{marginTop:50, backgroundColor:"#a19b7d"}}>
     <div className="section-title">
-    <h2 style={{textAlign:'center'}}>Get In Touch</h2>
-    <h6 style={{textAlign:'center'}}>
+    <h6 style={{textAlign:'center', fontSize:20, padding:30, marginTop:10}}>
             Please fill out the form below, send us your message, and we will get back to you as soon as apossible.  
             </h6>
       {!formSubmitted ? (
