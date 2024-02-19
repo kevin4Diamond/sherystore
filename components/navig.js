@@ -3,8 +3,7 @@ import {Navbar, Nav} from 'react-bootstrap'
 export default function Navig() {
   return (
     <>
-          <Navbar style={{fontSize:18, color:'black',backgroundColor:'silver', textAlign:"center"}} 
-           expand='xl' collapseOnSelect sticky="top"          >
+          <Navbar style={{fontSize:18, color:'black',backgroundColor:'silver', textAlign:"center"}}   expand='lg' collapseOnSelect sticky="top"          >
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="justify-content-center">
