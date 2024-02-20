@@ -11,6 +11,17 @@ export default function LandingPage() {
   return (
     <div className={styles.container}>
       <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6SDPHYZYT"></script>
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Y6SDPHYZYT');
+            `,
+          }}
+        />
         <title>R-II Luxury Skincare</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="skincare, luminous, hydrating, rejuvenating, cost effective skincare, all in one skincare, pietra, all skin type, hypoalergenic,luxury, moisture, Hyaluronic Acid, vitamin e, shea butter, mineral oil, vitamin c, day and night cream, eye cream, neck cream. anti wrinkle, zinc oxide spf 50  sunscreen"/>
