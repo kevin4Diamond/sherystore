@@ -11,14 +11,14 @@ export default function LandingPage() {
   return (
     <div className={styles.container}>
       <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6SDPHYZYT"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JEP7ZYZPFL"></script>
       <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-Y6SDPHYZYT');
+              gtag('config', 'G-JEP7ZYZPFL');
             `,
           }}
         />
