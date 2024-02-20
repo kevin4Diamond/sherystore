@@ -50,7 +50,7 @@ export default function LandingPage() {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Introducing R-II Luxury Skincare - the all in one cream you have been looking for. Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating. <br /> Are you tired of juggling multiple products and expenses for your skincare routine? Your solution is here!{' '}
+            Introducing R-II Luxury Skincare - the all in one cream you have been looking for. Face, Eyes, Neck (3 in one, unisex) for all skin types, Luminous, Hydrating, Rejuvenating. <br /> Are you tired of juggling multiple products and expenses for your skincare routine? Your solution is here! Dermatologist-approved.{' '}
           </p>
         </blockquote>
       </Card.Body>
@@ -73,9 +73,9 @@ export default function LandingPage() {
       alt="intro"
       />
       </div>
-      <Card  style={{ textAlign:'center' }}>
+      <Card  style={{ textAlign:'center', marginBottom:20}}>
       
-        Ingredients: Vitamin E, Vitamin C, Zinc Oxide, Mineral Oil, Shea Butter, Hyaluronic Acid.
+        Ingredients: Alpha-tocopheral, Ascorbic Acid, Zinc Oxide, Mineral Oil, Butyrospermum Parkii, Sodium Hyaluronate Hyaluronan.
       
       </Card>
       <main className={styles.main}>
@@ -102,7 +102,7 @@ export default function LandingPage() {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Introducing our exclusive 2-in-1 exfoliant and mask – a skincare breakthrough! <br />This transformative product not only refines your skin with a gentle rub but also doubles as a soothing mask when applied as per specific instructions. <br /> Combat acne spots and bid farewell to blackheads as you indulge in this multi-functional skincare essential. <br /> Unveil radiant, clearer skin with the one and only exfoliant that does it all.{' '}
+            Introducing our exclusive 2-in-1 exfoliant and mask – a skincare breakthrough! <br />This transformative product not only refines your skin with a gentle rub but also doubles as a soothing mask when applied as per specific instructions. <br /> Combat acne spots and bid farewell to blackheads as you indulge in this multi-functional skincare essential. <br /> Unveil radiant, clearer skin with the one and only exfoliant that does it all. Dermatologist-approved.{' '}
           </p>
         </blockquote>
       </Card.Body>
@@ -121,7 +121,7 @@ export default function LandingPage() {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Directions: Experience the magic by blending 1 tablespoon of water with 1/2 teaspoon of our R-II Exfoliating Powder. <br />Gently rub the mixture onto your skin for 1 to 2 minutes, then rinse and dry for a truly fantastic result. <br /> Ingredients: Crafted with care, our formula includes Carbonite Calcium Powder, White Petroleum, Olive Oil, Citric Acid, and Paraffin. <br /> Indulge in a skincare ritual that pampers your skin with these quality ingredients for a radiant glow.{' '}
+            Directions: Experience the magic by blending 1 tablespoon of water with 1/2 teaspoon of our R-II Exfoliating Powder. <br />Gently rub the mixture onto your skin for 1 to 2 minutes, then rinse and dry for a truly fantastic result. <br /> Ingredients: Crafted with care, our formula includes Calcium Carbonite Powder, White Petrolatum, Olea Europaea, Citric Acid, and Paraffin. <br /> Indulge in a skincare ritual that pampers your skin with these quality ingredients for a radiant glow.{' '}
           </p>
         </blockquote>
       </Card.Body>
