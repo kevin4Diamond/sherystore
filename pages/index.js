@@ -42,7 +42,7 @@ export default function LandingPage() {
       <div className="content">
       <div className="banner">
         R-II <br />
-        <p style={{fontSize:30, color:'black'}}>American Luxury Skincare<br />$120.00 per unit</p>
+        <p style={{fontSize:30, color:'black'}}>American Luxury Skincare<br />$85.00 per unit</p>
       </div>
       
       <Card style={{ textAlign:'center' }}>
